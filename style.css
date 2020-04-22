@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
+* {
+    font-family: 'Baloo 2', cursive;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #2F2F2F;
+    overflow-y: hidden;
+}
+
+.add-question-button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+.add-question-button {
+    background-color: #B300B3;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid #770087;
+    font-size: 20px;
+}
+
+
+.title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-bottom: #B300B3 solid 4px;
+    width: 900px;
+    text-align: center;
+}
+
+.description-container {
+    display: flex;
+    justify-content: center;
+}
+
+.description {
+    color: white;
+    font-size: 30px;
+    display: flex;
+}
+
+.start-button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-right: 200px;
+}
+
+.start-button {
+    background-color: #B300B3;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid #770087;
+    font-size: 30px;       
+}
+
