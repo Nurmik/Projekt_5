@@ -1,8 +1,8 @@
-# Klaviatuuri kiirklahvid
+# KLAVIATUURI KIIRKLAHVID
 
 Projekt 5
 
-## Lühikirjeldus
+## LÜHIKIRJELDUS
 
 See veebileht on mõeldud KAK õpilastele. Lehel on võimalik harjutada kiirklahve klaviatuuril, mis muudab arvutis töötamise lihtsamaks ja kiiremaks.
 Esilehelt on võimalik navigeeruda küsimuste lehele. Sealt on teil võimalik allalaadida fail ja lisada oma küsimused.
