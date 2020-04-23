@@ -9,6 +9,7 @@
 body {
     background-color: #2F2F2F;
     height: auto;
+    overflow-y: hidden;
 }
 
 
@@ -88,5 +89,5 @@ body {
 
 .wave-violet {
     position: absolute;
-    bottom: -100px;
+    bottom: -75px;
 }
