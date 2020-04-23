@@ -2,9 +2,15 @@ var keys = {};
 var questions;
 var question;
 var i = 0
+ 
+/* Get question file name from url parameters */
+const queryString = window.location.search;
+const urlParam = new URLSearchParams(queryString);
+const urlQuestion = urlParam.get('questions')
+var url = "http://localhost:8000/questions/"+urlQuestion;
 
 
-fetch("http://localhost:8000/questions/visual_studio.json")
+fetch(url)
 .then(response => {
     return response.json();
 })

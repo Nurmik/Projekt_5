@@ -1,6 +1,8 @@
 <?php
 
-require 'phpFunctions.php'
+require 'phpFunctions.php';
+
+$qfile = $_GET['question'];
 
 ?>
 
@@ -52,5 +54,7 @@ require 'phpFunctions.php'
         </div>
     </div>
     <script src="app.js"></script>
+    <script src="lodash.js"></script>
+
 </body>
 </html>
