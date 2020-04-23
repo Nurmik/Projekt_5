@@ -1,0 +1,41 @@
+{
+    "metaData": {
+    "title": "Klahvi kombinatsioonid",
+    "date": "2020-04-22"
+    },
+    "questions": [
+        {
+        "question": "Kuidas kopeerida teksti?",
+        "answer": {
+            "Control": true,
+            "c": true
+            },
+        "type": "shortcut"
+        },
+        {
+            "question": "Kuidas lõigata(cut) rida?",
+            "answer": {
+                "Control": true,
+                "x": true
+                },
+            "type": "shortcut"
+        },
+        {
+            "question": "Kuidas kleepida teksti?",
+            "answer": {
+                "Control": true,
+                "v": true
+                },
+            "type": "shortcut"
+        },
+        {
+        "question": "Kuidas kommenteerida välja valitud kood",
+        "answer": {
+            "Alt": true,
+            "Shift": true,
+            "A": true
+            },
+        "type": "shortcut"
+        }
+    ]
+}
