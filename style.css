@@ -159,3 +159,12 @@ input[type="file"] {
     margin: 100px;
       
 }
+
+#file-upload:hover {
+    background-color: #770087;
+    transition: 0.3s;
+}
+.button:hover {
+    background-color: #770087;
+    transition: 0.3s;
+}

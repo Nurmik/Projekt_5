@@ -1,4 +1,3 @@
-Live Demo
 <?php
    if(isset($_FILES['json'])){
       $errors= array();
@@ -16,7 +15,7 @@ Live Demo
       
       if(empty($errors)==true){
          move_uploaded_file($file_tmp,"questions/".$file_name);
-         echo "Success";
+         header('Location: /index.php');
       }else{
          print_r($errors);
       }

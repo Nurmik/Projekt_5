@@ -1,0 +1,143 @@
+{
+"metaData": {
+        "title": "Klahvi kombinatsioonid",
+        "date": "2020-04-22"
+},
+"questions": [
+    {
+        "question": "Kuidas kopeerida teksti?", 
+        "answer": {
+            "hasCtrl": true,
+            "keyCodes": "KeyX"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Kuidas lõigata(cut) rida?",
+        "answer": {
+           "hasCtrl": true,
+            "keyCodes": "KeyC"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Kuidas liigutada rida üles?",
+        "answer": {
+            "hasAlt": true,
+            "keyCodes": "ArrowUp"
+        },
+        "type": "shortcut"
+    },
+    {
+   
+        "question": "Kuidas kopeerida rida üles poole?",
+        "answer": {
+            "hasShift": true,
+            "hasAlt": true,
+           "keyCodes": "ArrowUp"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Kuidas kustutada terve rida?",
+        "answer": {
+            "hasCtrl": true,
+            "hasShift": true,
+           "keyCodes": "KeyK"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Kuidas sisestada rida alla?",
+        "answer": {
+            "hasCtrl": true,
+           "keyCodes": "Enter"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Kuidas sisestada rida üles?",
+        "answer": {
+            "hasCtrl": true,
+            "hasShift": true,
+           "keyCodes": "Enter"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Kuidas minna rea lõppu?",
+        "answer": {
+           "keyCodes": "End"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Kuidas minna faili lõppu",
+        "answer": {
+            "hasCtrl": true,
+           "keyCodes": "End"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Kuidas minna faili algusesse?",
+        "answer": {
+            "hasCtrl": true,
+           "keyCodes": "Home"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Kuidas kerida rida üles?",
+        "answer": {
+            "hasCtrl": true,
+           "keyCodes": "ArrowUp"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Fold (collapse) region?",
+        "answer": {
+            "hasCtrl": true,
+            "hasShift": true,
+           "keyCodes": "Digit8"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Kuidas lisada reale kommentaar?",
+        "answer": {
+            "hasCtrl": true,
+           "keyCodes": "KeyK"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Kuidas toggle-ida rea kommentaar?",
+        "answer": {
+            "hasCtrl": true,
+           "keyCodes": "Digit7"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Kuidas toggle-ida block kommentaar?",
+        "answer": {
+            "hasShift": true,
+            "hasAlt": true,
+           "keyCodes": "KeyA"
+        },
+        "type": "shortcut"
+    },
+    {
+        "question": "Toggle word wrap",
+        "answer": {
+            "hasAlt": true,
+           "keyCodes": "KeyZ"
+        },
+        "type": "shortcut"
+    }
+    
+    ]
+
+}
