@@ -17,7 +17,13 @@ Mängimise lehel stardib autoaatselt taimer ja tekib suvaline küsimus. Kui küs
 
 ## MEESKOND + 1 NAINE
 
-* **Alex Nurmberg** - *Tiimi liider* - [Nurmik](https://github.com/Nurmik)
+* **Alex Nurmberg** - *Tiimi liider - TAK-17* - [Nurmik](https://github.com/Nurmik)
+* **Joonas Püüding** - *TAK-19* - [fs-s](https://github.com/fs-s)
+* **Sander Aru** - *TA-midagi* - [Tuuletallaja](https://github.com/Tuuletallaja)
+* **Heinrich Mei** - *TAK-17* - [0nuh31n0](https://github.com/0nuh31n0)
+* **Markus Salundi** - *TAK-18* - [marksa302](https://github.com/marksa302)
+* **Jennifer Tarvis** - *TAK-18* - [Jentar](https://github.com/Jentar)
+* **Markus Rätsep** - *TAK-19* - [ratsepmarkus](https://github.com/ratsepmarkus)
 
 
 
