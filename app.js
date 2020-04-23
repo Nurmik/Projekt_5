@@ -10,13 +10,12 @@ fetch("http://localhost:8000/questions/visual_studio.json")
 })
 .then(json => {
     questions = json.questions;
-questions.forEach(x => {
-    i = i+1;
-});
-/* 
-    console.log(questions); */
-    var qnumb = questions.lenght;
-/*     console.log(i); */
+    
+    /* Count number of questions presented */
+    questions.forEach(x => {
+        i = i+1;
+    });
+
     var index = Math.floor(Math.random() * i);
     question = questions[index];
     console.log(question.question);
@@ -24,11 +23,13 @@ questions.forEach(x => {
 })
 
 
+/* Checks which keys are pressed down and if they mach the expected from the question */
+onkeydown = onkeyup = function(event) {     
 
-onkeydown = onkeyup = function(event) {
-
+    
     keys[event.key] = event.type == 'keydown';
     
+    /* Remove keys that are not pushed down from the keys list */
     for (var key in keys) {
         if (keys[key] === false) {
             delete keys[key];
@@ -40,6 +41,10 @@ onkeydown = onkeyup = function(event) {
     console.log(keys);
     console.log(_.isEqual(answer,keys));
 
+    /* 
+    Checks if keys object and answer object are equal.
+    If they are equal to something, not yet implemented
+    */
     if (_.isEqual(answer,keys)) {
         var gratz = 'ÕIGE!';
         document.getElementById("gratz").innerHTML = gratz;
