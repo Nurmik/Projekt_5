@@ -22,17 +22,16 @@ require 'phpFunctions.php'
     </div>
     <div class="description-container">
         <div class="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Vali küsimustik, mille teemal soovid kiirklahve testida.
         </div>
     </div>
     <form action="/index2.php" method="get">
 
-        <label id="dropdown" for="question">
+            <div class="start-button-container">
             <select name="questions" id="question">
+                <option value="" disabled selected hidden>Vali küsimustik</option>
                 <?php qlist();  ?>
             </select>
-        </label>
-        <div class="start-button-container">
             <button class="start-button">ALUSTA</button>
         </div>
     </form>

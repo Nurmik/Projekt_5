@@ -28,7 +28,7 @@ $qfile = $_GET['question'];
         </div>
         <div class="main-content">
             <div class="homepage-button-container">
-                <a href="index.html" class="homepage-button">ESILEHELE</a>
+                <a href="index.php" class="homepage-button">ESILEHELE</a>
                 <p class="time-label">AEG</p>
             </div>
             <div class="timer-container">
@@ -37,7 +37,7 @@ $qfile = $_GET['question'];
                 </div>
             </div>
             <div class="question-number-container">
-                <div class="question-number">KÜSIMUS #2</div>
+                <div class="question-number">KÜSIMUS</div>
             </div>
             <div class="question-container">
                 <div  id="question" class="question">küsimus</div>
@@ -46,9 +46,9 @@ $qfile = $_GET['question'];
                 <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf" target="_blank" class="dontremember-link">Ei tule meelde?</a>
             </div>
             <div class="counter-container">
-                <div class="counter-incorrect">3</div>
+                <div id="counter-incorrect" class="counter-incorrect">0</div>
                 <svg class="incorrect" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.151 17.943l-4.143-4.102-4.117 4.159-1.833-1.833 4.104-4.157-4.162-4.119 1.833-1.833 4.155 4.102 4.106-4.16 1.849 1.849-4.1 4.141 4.157 4.104-1.849 1.849z"/></svg>
-                <div class="counter-correct">2</div>
+                <div id="counter-correct" class="counter-correct">0</div>
                 <svg class="correct" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-1 17l-5-5.299 1.399-1.43 3.574 3.736 6.572-7.007 1.455 1.403-8 8.597z"/></svg>
             </div>
         </div>

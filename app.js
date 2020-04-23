@@ -1,7 +1,11 @@
 var keys = {};
 var questions;
 var question;
-var i = 0
+var i = 0;
+var index;
+var answer;
+var time
+var Qtime // Timestamp of question asked
  
 /* Get question file name from url parameters */
 const queryString = window.location.search;
@@ -22,10 +26,11 @@ fetch(url)
         i = i+1;
     });
 
-    var index = Math.floor(Math.random() * i);
+    index = Math.floor(Math.random() * i);
     question = questions[index];
     console.log(question.question);
     document.getElementById("question").innerHTML = question.question
+    Qtime = new Date().getTime()
 })
 
 
@@ -42,19 +47,60 @@ onkeydown = onkeyup = function(event) {
         }
     }
 
-    var answer = question.answer;
+    answer = question.answer;
     console.log(answer);
     console.log(keys);
     console.log(_.isEqual(answer,keys));
 
     /* 
     Checks if keys object and answer object are equal.
-    If they are equal to something, not yet implemented
+    If they are equal, load next question.
+    If key combination is wrong, penalise.
     */
     if (_.isEqual(answer,keys)) {
         var gratz = 'ÕIGE!';
-        document.getElementById("gratz").innerHTML = gratz;
+        document.getElementById("question").innerHTML = gratz;
+        var correct = document.getElementById("counter-correct").innerHTML
+        correct = Number(correct);
+        correct = correct + 1;
+        document.getElementById("counter-correct").innerHTML = correct;
+        console.log(correct);
+        keys = {};
+        nextQ();
+    } else {
+        var timeCheck = new Date().getTime();
+        var check = timeCheck - Qtime;
+        console.log(timeCheck);
+        console.log(check);
+        if (check > 2000) {
+            var wrong = document.getElementById("counter-incorrect").innerHTML
+            wrong = Number(wrong);
+            wrong = wrong + 1;
+            document.getElementById("counter-incorrect").innerHTML = wrong;
+            console.log(wrong);
+            keys = {};
+            Qtime = new Date().getTime();
+            console.log(Qtime);
+        }
+
     }
+
+/* Define sleep function */
+    
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+/* Wait and load new question to be displayed */
+async function nextQ() {
+    index = Math.floor(Math.random() * i);
+    question = questions[index];
+    console.log(question.question);
+    await sleep(2000);
+    document.getElementById("question").innerHTML = question.question
+    Qtime = new Date().getTime();
+}
+
 
 }
 

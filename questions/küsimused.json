@@ -7,24 +7,24 @@
     {
         "question": "Kuidas kopeerida teksti?", 
         "answer": {
-            "hasCtrl": true,
-            "keyCodes": "KeyX"
+            "Control": true,
+            "x": true
         },
         "type": "shortcut"
     },
     {
         "question": "Kuidas lõigata(cut) rida?",
         "answer": {
-           "hasCtrl": true,
-            "keyCodes": "KeyC"
+           "Control": true,
+            "c": true
         },
         "type": "shortcut"
     },
     {
         "question": "Kuidas liigutada rida üles?",
         "answer": {
-            "hasAlt": true,
-            "keyCodes": "ArrowUp"
+            "Alt": true,
+            "ArrowUp": true
         },
         "type": "shortcut"
     },
@@ -32,108 +32,108 @@
    
         "question": "Kuidas kopeerida rida üles poole?",
         "answer": {
-            "hasShift": true,
-            "hasAlt": true,
-           "keyCodes": "ArrowUp"
+            "Shift": true,
+            "Alt": true,
+           "ArrowUp": true
         },
         "type": "shortcut"
     },
     {
         "question": "Kuidas kustutada terve rida?",
         "answer": {
-            "hasCtrl": true,
-            "hasShift": true,
-           "keyCodes": "KeyK"
+            "Control": true,
+            "Shift": true,
+           "K": true
         },
         "type": "shortcut"
     },
     {
         "question": "Kuidas sisestada rida alla?",
         "answer": {
-            "hasCtrl": true,
-           "keyCodes": "Enter"
+            "Control": true,
+           "keyCodes": true
         },
         "type": "shortcut"
     },
     {
         "question": "Kuidas sisestada rida üles?",
         "answer": {
-            "hasCtrl": true,
-            "hasShift": true,
-           "keyCodes": "Enter"
+            "Control": true,
+            "Shift": true,
+           "Enter": true
         },
         "type": "shortcut"
     },
     {
         "question": "Kuidas minna rea lõppu?",
         "answer": {
-           "keyCodes": "End"
+           "End": true
         },
         "type": "shortcut"
     },
     {
         "question": "Kuidas minna faili lõppu",
         "answer": {
-            "hasCtrl": true,
-           "keyCodes": "End"
+            "Cobtrol": true,
+           "End": true
         },
         "type": "shortcut"
     },
     {
         "question": "Kuidas minna faili algusesse?",
         "answer": {
-            "hasCtrl": true,
-           "keyCodes": "Home"
+            "Control": true,
+           "Home": true
         },
         "type": "shortcut"
     },
     {
         "question": "Kuidas kerida rida üles?",
         "answer": {
-            "hasCtrl": true,
-           "keyCodes": "ArrowUp"
+            "Control": true,
+           "ArrowUp": true
         },
         "type": "shortcut"
     },
     {
         "question": "Fold (collapse) region?",
         "answer": {
-            "hasCtrl": true,
-            "hasShift": true,
-           "keyCodes": "Digit8"
+            "Control": true,
+            "Shift": true,
+           "8": true
         },
         "type": "shortcut"
     },
     {
         "question": "Kuidas lisada reale kommentaar?",
         "answer": {
-            "hasCtrl": true,
-           "keyCodes": "KeyK"
+            "Control": true,
+           "k": true
         },
         "type": "shortcut"
     },
     {
         "question": "Kuidas toggle-ida rea kommentaar?",
         "answer": {
-            "hasCtrl": true,
-           "keyCodes": "Digit7"
+            "Control": true,
+           "7": true
         },
         "type": "shortcut"
     },
     {
         "question": "Kuidas toggle-ida block kommentaar?",
         "answer": {
-            "hasShift": true,
-            "hasAlt": true,
-           "keyCodes": "KeyA"
+            "Shift": true,
+            "Alt": true,
+           "A": true
         },
         "type": "shortcut"
     },
     {
         "question": "Toggle word wrap",
         "answer": {
-            "hasAlt": true,
-           "keyCodes": "KeyZ"
+            "Alt": true,
+           "z": true
         },
         "type": "shortcut"
     }
