@@ -35,9 +35,8 @@ fetch(url)
 
 
 /* Checks which keys are pressed down and if they mach the expected from the question */
-onkeydown = onkeyup = function(event) {     
-
-    
+onkeydown = onkeyup = function(event) { 
+    event.preventDefault();    
     keys[event.key] = event.type == 'keydown';
     
     /* Remove keys that are not pushed down from the keys list */
@@ -72,7 +71,7 @@ onkeydown = onkeyup = function(event) {
         var check = timeCheck - Qtime;
         console.log(timeCheck);
         console.log(check);
-        if (check > 2000) {
+        if (check > 3000) {
             var wrong = document.getElementById("counter-incorrect").innerHTML
             wrong = Number(wrong);
             wrong = wrong + 1;
