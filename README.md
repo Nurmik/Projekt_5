@@ -13,7 +13,7 @@ Mängimise lehel stardib automaatselt taimer ja tekib suvaline küsimus. Kui kü
 
 ## [FIGMA](https://www.figma.com/file/GwRjUwZdDXRDnHTjUncfyz/Untitled?node-id=0%3A1)
 
-## TOGGL fail: 
+## [TOGGL fail](https://github.com/Nurmik/Projekt_5/blob/master/Toggl_Projekt5.pdf) 
 
 
 ## MEESKOND + 1 NAINE
