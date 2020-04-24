@@ -15,7 +15,7 @@ Mängimise lehel stardib automaatselt taimer ja tekib suvaline küsimus. Kui kü
 
 ## [TOGGL fail](https://github.com/Nurmik/Projekt_5/blob/master/general%20report.pdf)
 ## [Heinrich Mei TOGGL](https://github.com/Nurmik/Projekt_5/blob/master/Toggl_time_entries_2020-04-20_to_2020-04-26.pdf)
-## [Joonas Püüding](https://github.com/Nurmik/Projekt_5/blob/master/joonas.pdf)
+## [Joonas Püüding TOGGL](https://github.com/Nurmik/Projekt_5/blob/master/joonas.pdf)
 
 
 ## MEESKOND + 1 NAINE
